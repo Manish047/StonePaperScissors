@@ -10,7 +10,7 @@ CSS
 ## Output
 
 <div align="center">
-    <img src="../screenshot/1.png" width="400px" />
+    <img src="./screenshot/1.png" width="400px" />
 </div>
 
 
