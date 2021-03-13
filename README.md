@@ -1,4 +1,4 @@
-# StonePaperScissors
+# Stone Paper Scissors
 
 ## A game that everyone already knows about.
 
