@@ -1,6 +1,6 @@
 # StonePaperScissors
 
-## A Game which everyone already knows about.
+## A game that everyone already knows about.
 
 ### Play it yourself
 https://stonepaperscissorss47.netlify.app/
