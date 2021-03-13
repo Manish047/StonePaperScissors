@@ -3,8 +3,8 @@
 ## Game That Everyone ALready Knows About
 
 ### Created Using
-JavaScript
-HTML
+JavaScript\
+HTML\
 CSS
 
 ## Output
@@ -16,6 +16,6 @@ CSS
 
 ## To run this app
 
-1) Open VSCode.\
-2) Install the Live Server extension.\
+1) Open VSCode.
+2) Install the Live Server extension.
 3) Click on Go Live at the bottom.
