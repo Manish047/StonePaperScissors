@@ -11,7 +11,7 @@ const path = (url) => {
 const paper = document.getElementById('btn_paper');
 const scissors = document.getElementById('btn_scissors');
 const stone = document.getElementById('btn_stone');
-const result = document.querySelector('.result_tag');
+const result = document.querySelector('.result');
 
 const computer = document.getElementById('computer');
 const user = document.getElementById('user');

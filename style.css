@@ -5,12 +5,7 @@
     box-sizing: border-box;
 }
 
-html, body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+body {
     font-family: 'Roboto', sans-serif;
     color: white;
     background: #0575E6;
@@ -23,18 +18,41 @@ html, body {
 
 main {
     padding: 16px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .heading {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
+    padding: 16px;
     margin: auto;
     text-align: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: #021B79;
+    min-height: 50px;
+}
+
+.content {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hands {
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
     padding: 16px;
+    margin: 16px auto;
+    box-shadow: 0px 0px 10px #0575E6;
+    border-radius: 8px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,8 +68,8 @@ main {
 }
 
 .hands__image-container h1 {
-    font-size: 1rem;
-    margin: 16px 0;
+    font-size: 1.3rem;
+    margin: 8px 0;
 }
 
 .hands__image-container:nth-child(1) img {
@@ -71,17 +89,20 @@ main {
     margin: auto;
     text-align: center;
     margin: 16px 0;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 .input {
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0px 0px 10px #0575E6;
+    padding: 16px;
+    margin: 16px auto;
+    border-radius: 8px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: 16px auto;
-    width: 80%;
-    max-width: 500px;
 }
 
 .input_button {
@@ -111,10 +132,16 @@ main {
 }
 
 @media(min-width: 450px) {
+    .heading {
+        font-size: 2rem;
+    }
     .hands__image-container h1 {
         font-size: 1.8rem;
     }
     .input_button {
         padding: 12px;
+    }
+    .result {
+        font-size: 1.5rem;
     }
 }
