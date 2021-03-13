@@ -10,7 +10,7 @@ HTML\
 CSS\
 JavaScript
 
-## Output
+### Output
 
 <div>
     <img src="./screenshot/1.png" width="400px" />
