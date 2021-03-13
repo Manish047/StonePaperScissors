@@ -2,10 +2,13 @@
 
 ## Game That Everyone ALready Knows About
 
+### Play it yourself
+https://stonepaperscissorss47.netlify.app/
+
 ### Created Using
-JavaScript\
 HTML\
-CSS
+CSS\
+JavaScript
 
 ## Output
 
