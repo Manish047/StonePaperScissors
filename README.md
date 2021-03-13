@@ -12,7 +12,7 @@ JavaScript
 
 ## Output
 
-<div align="center">
+<div>
     <img src="./screenshot/1.png" width="400px" />
 </div>
 
